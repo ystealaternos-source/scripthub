@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traplixy Hub | Scripts</title>
+    <style>
+        :root {
+            --primary: #00ff88;
+            --bg: #0a0a0a;
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --text: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            width: 100%;
+            padding: 60px 20px;
+            text-align: center;
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), 
+                        url('https://www.transparenttextures.com/patterns/carbon-fibre.png');
+            border-bottom: 2px solid var(--primary);
+            margin-bottom: 40px;
+            box-sizing: border-box;
+        }
+
+        h1 { font-size: 2.5rem; margin: 0; text-transform: uppercase; font-weight: 800; }
+        .highlight { color: var(--primary); }
+
+        .container {
+            max-width: 800px;
+            width: 90%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding-bottom: 50px;
+        }
+
+        .script-card {
+            background: var(--card-bg);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            transition: 0.3s;
+            text-decoration: none;
+            color: white;
+        }
+
+        .script-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--primary);
+            background: rgba(255, 255, 255, 0.1);
+        }
+
+        .script-img {
+            width: 110px;
+            height: 75px;
+            border-radius: 8px;
+            margin-right: 20px;
+            object-fit: cover;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .btn-get {
+            margin-left: auto;
+            background: var(--primary);
+            color: #000;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 0.8rem;
+            text-transform: uppercase;
+        }
+
+        @media (max-width: 600px) {
+            .script-card { flex-direction: column; text-align: center; }
+            .script-img { margin: 0 0 15px 0; width: 100%; height: auto; }
+            .btn-get { margin: 10px 0 0 0; width: 100%; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>THANKS FOR THE <span class="highlight">SUPPORT</span></h1>
+        <p style="opacity: 0.6; margin-top: 10px;">Official Traplixy Hub Scripts</p>
+    </header>
+
+    <div class="container">
+        <a href="https://link-center.net/1407655/xipJlAQLWhcO" class="script-card">
+            <img src="https://tr.rbxcdn.com/180DAY-707823f684813589c3722e0d37e584f7/420/420/Image/Webp/noFilter" alt="Rivals" class="script-img">
+            <div>
+                <h2 style="margin:0; font-size: 1.2rem;">TraplixyHub Rivals Script</h2>
+                <div style="display: flex; align-items: center; margin-top: 5px;">
+                    <span style="color: #00ff88; font-size: 1.2rem; margin-right: 5px;">•</span>
+                    <span style="color: #00ff88; font-size: 0.8rem; font-weight: bold;">Online</span>
+                </div>
+            </div>
+            <div class="btn-get">GET SCRIPT</div>
+        </a>
+
+        <a href="https://link-hub.net/1407655/l5a2bawsMZYP" class="script-card">
+            <img src="https://tr.rbxcdn.com/180DAY-19106095374528c6e913a84b397973d9/420/420/Image/Webp/noFilter" alt="Arsenal" class="script-img">
+            <div>
+                <h2 style="margin:0; font-size: 1.2rem;">Insane Arsenal Script</h2>
+                <div style="display: flex; align-items: center; margin-top: 5px;">
+                    <span style="color: #00ff88; font-size: 1.2rem; margin-right: 5px;">•</span>
+                    <span style="color: #00ff88; font-size: 0.8rem; font-weight: bold;">Online</span>
+                </div>
+            </div>
+            <div class="btn-get">GET SCRIPT</div>
+        </a>
+    </div>
+
+</body>
+</html>
